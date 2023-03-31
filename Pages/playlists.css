@@ -1,0 +1,78 @@
+html, body, h1{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+
+}
+
+nav{
+   
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+
+}
+
+.logo{
+    width:200px;
+    float:left;
+    color: white;
+
+}
+
+.nav-con{
+    width: 550px;
+    height: 50px;
+    float:left;
+    color: white;
+  
+}
+
+.nav-con ul{
+    list-style:none;
+
+}
+
+.nav-con li{
+    float: left;
+    padding-left:  20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+    color: white;
+
+}
+
+.nav-con li:hover{
+    color: white;
+    cursor: pointer;
+
+}
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+  }
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:active {
+    color: black;
+    background-color: transparent;
+ }
